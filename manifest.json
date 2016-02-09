@@ -4,7 +4,7 @@
 	"version": "1.0",
 	"content_scripts": [
 		{
-			"matches": ["http://www.wykop.pl/powiadomienia/tagi/"],
+			"matches": ["http://www.wykop.pl/powiadomienia/tagi/*"],
 			"js": ["js/jquery.js","js/scripts.js"]
 		}
 	]
